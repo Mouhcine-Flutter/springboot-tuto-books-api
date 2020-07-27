@@ -11,7 +11,7 @@ Sping Boot 2 example BOOK API projet (list books, add books, find by author or t
 
 ## Build app
 
- - `mvn clean install` (or use maven wrapper : ./mvnw clean install or build and run with ./mvnw spring-boot:run)
+ - `mvn clean install -U` (or use maven wrapper : ./mvnw clean install or build and run with ./mvnw spring-boot:run)
  - See pom for unpack maven dependencies
  - Build Image : near Dockerfile launch `docker build --no-cache -t bookapp_image:1.0.0 .`
  
